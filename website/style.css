@@ -1,0 +1,30 @@
+li{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+.footer>p{
+    font-size: 30px;
+}
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+/* .welcomeimage{
+    height: ;
+} */

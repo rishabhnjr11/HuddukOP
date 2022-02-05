@@ -1,0 +1,153 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div>h1>span{
+            color:blue;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+
+     select "I'm the direct son" and make it blue 
+
+         <div>
+        <h1>
+            <span>I'm the direct son</span>
+        </h1>
+    </div>
+
+    <div>
+        <span>
+            <h1>
+                <span>I'm the indirect son</span>
+            </h1>
+        </span>
+    </div>
+
+</body>
+
+--></html> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* write code here */
+        /* .class1, .class2{
+            color: blue;
+        } 
+        .m1.m2{
+            color:blue;
+        }
+        div div div span div{
+            color: blue;
+        }
+        div>p{
+            color: blue;
+        }
+        #the-one{
+            color: blue; 
+        }*/
+        #the-one>.c1.c2{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Select the obvious p tags and make them blue  -->
+    <p>Random</p>
+    <p>Random</p>
+    <p>Random</p>
+    <p>Random</p>
+    <p>Random</p>
+    <p>Random</p>
+    <p>Random</p>
+
+    <p class="class1">Select me and next guy</p>
+    <p class="class2">Yes me!</p>
+
+
+    <!-- Select the element with multiple classes(m1 & m2) and make them blue -->
+    <div class="m1 m2">
+        Select me
+    </div>
+
+    <div class="m1">Not me</div>
+    <div class="m2">Not me either</div>
+
+
+      <!-- Select "I'm here. find me" and make it blue  -->
+    <br>
+    <div class="c1">
+        <div>
+        <div>
+            <span>
+                <div>I'm here. find me</div>
+            </span>
+        </div>
+        </div>
+
+    </div>
+    
+    <span>
+      <div class="c1">Dont select me</div>
+    </span>
+
+    <br>
+    <br>
+    <div class="c1">
+        <p>
+            I'm the direct son
+        </p>
+    </div>
+
+    <div class="c2">
+        <span>
+            <p>I'm the indirect son</p>
+        </span>
+    </div>
+    <br>
+    <br>
+
+    <p class="s1">Random</p>
+    <p class="s1">Random</p>
+    <p class="s1">Random</p>
+    <p class="s1" id='the-two'>Random</p> 
+    <p class="s2">Random</p>
+    <p class="s2">Random</p>
+    <p class="s2" id="the-one">select me</p>
+    <p class="s2">Random</p>
+    <p class="s2">Random</p>
+    <br>
+    <br>
+    <br>
+    <div class="some-class">
+        <div id="the-one">
+            <p>Random</p>
+            <div>
+                <p class="c1 c2">Random</p>
+            </div>
+            <p class="c1 c2">Select me</p>
+            <div class="c1 c2">Select me</div>
+        </div>
+    </div>
+    <div class="some-class">
+        <p class="c1">Random</p>
+        <p class="c2">Random</p>
+        <p class="c1 c2">Random</p>
+    </div>
+</body>
+
+</html>
